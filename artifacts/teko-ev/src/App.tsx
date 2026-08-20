@@ -150,6 +150,28 @@ function Field({label,value,onChange,type='text',required=false,testId}:{label:s
 
 function About() { return <Shell><Seo title="About TEKO EV | Electric mobility, considered" description="Learn about TEKO EV, a national electric vehicle and golf cart dealership built around better local travel."/><main className="page-reveal pt-[72px]"><section className="bg-[#dfe7e3] px-5 py-20 md:px-10 md:py-32"><div className="mx-auto max-w-[1440px]"><p className="font-mono-ui text-[10px] uppercase tracking-[.2em] text-[#61736d]">The TEKO point of view</p><h1 className="mt-5 max-w-5xl font-display text-6xl leading-[.86] tracking-[-.04em] md:text-9xl">There’s more<br/><i>to local.</i></h1><p className="mt-10 max-w-xl text-xl leading-8 text-[#53645f]">The coffee run. The first tee time. The sunset loop around the neighborhood. TEKO EV exists for the small distances that make a life feel large.</p></div></section><section className="bg-[#f4f0e6] px-5 py-20 md:px-10 md:py-32"><div className="mx-auto grid max-w-[1100px] gap-12 md:grid-cols-2"><div><p className="font-mono-ui text-[10px] uppercase tracking-[.2em] text-[#718093]">01 / The idea</p><h2 className="mt-5 font-display text-5xl leading-[.9] md:text-7xl">A golf cart<br/><i>grew up.</i></h2></div><div className="text-lg leading-8 text-[#536275]"><p>TEKO is a national electric vehicle and golf cart dealership for people who expect more from a neighborhood vehicle. Not louder. Not more complicated. Simply more considered.</p><p className="mt-6">We bring capable motors, modern interfaces, useful storage, and real comfort together in a collection that belongs just as naturally at a resort as it does in your own driveway.</p></div></div></section><section className="bg-[#101b2a] px-5 py-20 text-[#f4f0e6] md:px-10 md:py-28"><div className="mx-auto max-w-[1100px]"><p className="font-mono-ui text-[10px] uppercase tracking-[.2em] text-[#c9ed36]">02 / What we believe</p><div className="mt-12 grid gap-px bg-white/10 md:grid-cols-3"><div className="bg-[#16263a] p-7 md:p-9"><div className="font-display text-5xl text-[#c9ed36]">01</div><h3 className="mt-8 font-display text-3xl">Useful beauty</h3><p className="mt-4 text-sm leading-7 text-[#aab5c2]">Good design should make the everyday easier, more comfortable, and more enjoyable.</p></div><div className="bg-[#16263a] p-7 md:p-9"><div className="font-display text-5xl text-[#c9ed36]">02</div><h3 className="mt-8 font-display text-3xl">Quiet confidence</h3><p className="mt-4 text-sm leading-7 text-[#aab5c2]">A composed drive and thoughtful capability say more than a spec sheet ever could.</p></div><div className="bg-[#16263a] p-7 md:p-9"><div className="font-display text-5xl text-[#c9ed36]">03</div><h3 className="mt-8 font-display text-3xl">Local matters</h3><p className="mt-4 text-sm leading-7 text-[#aab5c2]">Our dealer network makes the experience personal, from first question to first drive.</p></div></div></div></section><section className="bg-[#c9ed36] px-5 py-16 md:px-10 md:py-24"><div className="mx-auto flex max-w-[1100px] flex-col justify-between gap-8 md:flex-row md:items-end"><h2 className="font-display text-5xl leading-[.9] text-[#101b2a] md:text-7xl">Ready to see<br/><i>what fits?</i></h2><ButtonLink href="/models">Explore the models</ButtonLink></div></section></main></Shell>; }
 
+function ModelSectionImage() {
+  const [location] = useLocation();
+
+  useEffect(() => {
+    const match = location.match(/^\/models\/([^/]+)$/);
+    const section = document.querySelector('main.page-reveal > section:nth-of-type(2)');
+    if (!section) return;
+
+    section.classList.remove('model-glance-with-image');
+    section.style.removeProperty('--model-image');
+    if (!match) return;
+
+    const model = models.find((item) => item.slug === match[1]);
+    if (!model) return;
+
+    section.classList.add('model-glance-with-image');
+    section.style.setProperty('--model-image', `url("${model.image}")`);
+  }, [location]);
+
+  return null;
+}
+
 function Router() { return <Switch><Route path="/" component={Home}/><Route path="/models" component={Models}/><Route path="/models/:slug" component={ModelPage}/><Route path="/dealers" component={Dealers}/><Route path="/contact" component={Contact}/><Route path="/about" component={About}/><Route component={NotFound}/></Switch>; }
-function App() { return <QueryClientProvider client={new QueryClient()}><TooltipProvider><Router/><Toaster/></TooltipProvider></QueryClientProvider>; }
+function App() { return <QueryClientProvider client={new QueryClient()}><TooltipProvider><Router/><ModelSectionImage/><Toaster/></TooltipProvider></QueryClientProvider>; }
 export default App;

@@ -95,6 +95,29 @@
 .line-arrow:hover { gap: 1rem; }
 .accent-rule { width: 3.2rem; height: 2px; background: hsl(var(--accent)); }
 
+.model-glance-with-image {
+  padding-top: 0 !important;
+}
+
+.model-glance-with-image::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: clamp(220px, 38vw, 520px);
+  background-image: var(--model-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 767px) {
+  .model-glance-with-image::before {
+    height: 240px;
+    margin-bottom: 2.5rem;
+  }
+}
+
 /* TEKO blue / red / white brand overrides */
 @layer utilities {
   .bg-\[\#101b2a\] { background-color: #0b3d91 !important; }
