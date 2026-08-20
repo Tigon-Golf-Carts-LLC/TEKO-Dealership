@@ -188,7 +188,17 @@ function About() {
 
 function Belief({ number, title, copy }: { number: string; title: string; copy: string }) { return <div className="glass-dark rounded-2xl p-7"><div className="font-mono-ui text-3xl text-[#ff7774]">{number}</div><h3 className="mt-8 font-display text-2xl font-semibold">{title}</h3><p className="mt-4 text-sm leading-7 text-[#bed2f0]">{copy}</p></div>; }
 
-function Router() { return <Switch><Route path="/" component={Home}/><Route path="/models" component={Models}/><Route path="/models/:slug" component={ModelPage}/><Route path="/dealers" component={Dealers}/><Route path="/contact" component={Contact}/><Route path="/about" component={About}/><Route component={NotFound}/></Switch>; }
+function ScrollToTop() {
+  const [location] = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
+  return null;
+}
+
+function Router() { return <><ScrollToTop/><Switch><Route path="/" component={Home}/><Route path="/models" component={Models}/><Route path="/models/:slug" component={ModelPage}/><Route path="/dealers" component={Dealers}/><Route path="/contact" component={Contact}/><Route path="/about" component={About}/><Route component={NotFound}/></Switch></>; }
 const queryClient = new QueryClient();
 function App() { return <QueryClientProvider client={queryClient}><TooltipProvider><Router/><Toaster/></TooltipProvider></QueryClientProvider>; }
 export default App;
