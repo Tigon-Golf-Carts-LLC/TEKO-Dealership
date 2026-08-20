@@ -1,0 +1,17 @@
+215-595-8736	2333 Bethlehem Pike, Hatfield, PA 19440	40.29839945958623, -75.28308913039525	https://www.google.com/maps?cid=8221925612164093496
+609-840-0404	101 NJ-50, Ocean View, NJ 08230	39.22254797811702, -74.70417212536503	https://www.google.com/maps?cid=6446924254429489274
+570-580-0567	4738 PA-115, Long Pond, PA 18334	41.053988,-75.534146	https://www.google.com/maps?cid=11714838830522733253
+570-643-0152	1712 Pennsylvania 940, Pocono Pines, PA 18350	41.10286354605563, -75.48758590250345	https://www.google.com/maps?cid=17137841834562046914
+302-546-0010	5158 N Dupont Hwy, Dover, DE 19901	39.22044318468275, -75.57452048907642	https://www.google.com/maps?cid=12843447677705895190
+570-344-4443	1225 N Keyser Ave #2, Scranton, PA 18504	41.4374075,-75.6835104	https://www.google.com/maps?cid=13243686786001524416
+984-489-0296	2700 S Wilmington St, Raleigh, NC 27603	35.7471032,-78.6452007	https://www.google.com/maps?cid=14570072271497929915
+574-703-0456	52129 State Road 933, South Bend, IN 46637	41.7360283,-86.2511865	https://www.google.com/maps?cid=17532455648086849827
+804-792-0234	2810 George Washington Memorial Hwy, Gloucester Point, VA 23072	37.2850625,-76.5074161	https://www.google.com/maps?cid=16682967888503617377
+732-908-7166	155 Atlantic City Blvd Bayville, NJ 08721	39.9277698,-74.1748497	https://www.google.com/maps?cid=16812778070531162551
+"732-998-8146
+"	526 US-9 Waretown, NJ 08758	39.7998853,-74.1971619	https://www.google.com/maps?cid=11595558320608622005
+803-596-0246	4166 North Rd, Orangeburg, SC 29118	33.547201,-80.9162039	https://www.google.com/maps?cid=17192321019507936230
+419-402-8400	10420 AIrport Hwy, Swanton, OH 43558	41.6013184,-83.7926472	https://www.google.com/maps?cid=16517552730289967239
+352-453-0345	299 E. Gulf to Lake Hwy, Lecanto, FL 34461	28.858622,-82.4295381	https://www.google.com/maps?cid=4773802157529013859
+609-551-0234	1304 NJ-47 b, Rio Grande, NJ 08242		https://www.google.com/maps?cid=17469351422439742131
+940-716-3334	3904 Sheppard Access Rd, Wichita Falls, TX 76306		
