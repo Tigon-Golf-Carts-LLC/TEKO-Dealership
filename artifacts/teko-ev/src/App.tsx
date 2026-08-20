@@ -36,6 +36,11 @@ const models: Model[] = [
     specs: [{label:'Motor',value:'5 kW AC Electric Motor'},{label:'Battery',value:'51.2V LiFePO4 Lithium'},{label:'Seating',value:'2 or 4 Passengers'},{label:'Display',value:'10.1" Touchscreen'},{label:'Connectivity',value:'Apple CarPlay / Android Auto'},{label:'Camera',value:'HD Rear-View Camera'},{label:'Charger Input',value:'100–240V AC'},{label:'Chassis Warranty',value:'Lifetime'},{label:'Battery Warranty',value:'8 Years (Personal Use)'},{label:'Components Warranty',value:'2 Years'}] },
 ];
 
+models.sort((a, b) => {
+  const price = (value: string) => Number(value.replace(/[$,]/g, ''));
+  return price(a.price) - price(b.price);
+});
+
 const dealers = [
   ['215-595-8736','2333 Bethlehem Pike, Hatfield, PA 19440'],['609-840-0404','101 NJ-50, Ocean View, NJ 08230'],['570-580-0567','4738 PA-115, Long Pond, PA 18334'],['570-643-0152','1712 Pennsylvania 940, Pocono Pines, PA 18350'],['302-546-0010','5158 N Dupont Hwy, Dover, DE 19901'],['570-344-4443','1225 N Keyser Ave #2, Scranton, PA 18504'],['984-489-0296','2700 S Wilmington St, Raleigh, NC 27603'],['574-703-0456','52129 State Road 933, South Bend, IN 46637'],['804-792-0234','2810 George Washington Memorial Hwy, Gloucester Point, VA 23072'],['732-908-7166','155 Atlantic City Blvd Bayville, NJ 08721'],['732-998-8146','526 US-9 Waretown, NJ 08758'],['803-596-0246','4166 North Rd, Orangeburg, SC 29118'],['419-402-8400','10420 Airport Hwy, Swanton, OH 43558'],['352-453-0345','299 E. Gulf to Lake Hwy, Lecanto, FL 34461'],['609-551-0234','1304 NJ-47 b, Rio Grande, NJ 08242'],['940-716-3334','3904 Sheppard Access Rd, Wichita Falls, TX 76306'],
 ];
