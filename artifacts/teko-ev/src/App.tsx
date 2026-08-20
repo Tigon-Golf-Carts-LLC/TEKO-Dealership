@@ -155,7 +155,7 @@ function ModelSectionImage() {
 
   useEffect(() => {
     const match = location.match(/^\/models\/([^/]+)$/);
-    const section = document.querySelector('main.page-reveal > section:nth-of-type(2)');
+    const section = document.querySelector<HTMLElement>('main.page-reveal > section:nth-of-type(2)');
     if (!section) return;
 
     section.classList.remove('model-glance-with-image');
