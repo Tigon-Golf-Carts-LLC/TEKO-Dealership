@@ -94,3 +94,23 @@
 .line-arrow { transition: gap .25s ease; }
 .line-arrow:hover { gap: 1rem; }
 .accent-rule { width: 3.2rem; height: 2px; background: hsl(var(--accent)); }
+
+/* TEKO blue / red / white brand overrides */
+@layer utilities {
+  .bg-\[\#101b2a\] { background-color: #0b3d91 !important; }
+  .bg-\[\#16263a\] { background-color: #08306b !important; }
+  .bg-\[\#dfe7e3\], .bg-\[\#f4f0e6\] { background-color: #ffffff !important; }
+  .bg-\[\#e8eeeb\], .bg-\[\#e6ece8\] { background-color: #f4f8ff !important; }
+  .bg-\[\#c9ed36\] { background-color: #d62828 !important; }
+  .text-\[\#101b2a\] { color: #0b3d91 !important; }
+  .text-\[\#f4f0e6\] { color: #ffffff !important; }
+  .text-\[\#c9ed36\], .text-\[\#718a12\] { color: #d62828 !important; }
+  .text-\[\#aab5c2\], .text-\[\#c0c8d0\] { color: #dbeafe !important; }
+  .text-\[\#38485b\], .text-\[\#384d48\], .text-\[\#536275\], .text-\[\#53645f\] { color: #173b73 !important; }
+  .text-\[\#718093\], .text-\[\#61736d\], .text-\[\#778595\] { color: #52709f !important; }
+  .border-\[\#c9ed36\] { border-color: #d62828 !important; }
+  .border-\[\#c4ccc8\], .border-\[\#bfcac5\], .border-\[\#aebcb5\], .border-\[\#b9c8c1\] { border-color: #c8d8ef !important; }
+  .hover\:bg-\[\#c9ed36\]:hover { background-color: #b71c1c !important; }
+  .hover\:text-\[\#c9ed36\]:hover { color: #ef4444 !important; }
+  .focus\:border-\[\#718a12\]:focus { border-color: #d62828 !important; }
+}
