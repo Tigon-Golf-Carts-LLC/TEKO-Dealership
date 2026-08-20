@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "TEKO EV"
+description = "A national TEKO EV electric vehicle and golf cart dealership website with model pages, dealer locations, vehicle comparisons, and conversion-focused SEO content."
+version = "1.0.0"
+id = "artifacts/teko-ev"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20858
+
+[services.development]
+run = "pnpm --filter @workspace/teko-ev run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/teko-ev", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/teko-ev/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20858"
+BASE_PATH = "/"

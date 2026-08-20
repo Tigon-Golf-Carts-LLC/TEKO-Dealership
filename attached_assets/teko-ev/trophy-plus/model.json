@@ -1,0 +1,89 @@
+{
+  "brand": "TEKO EV",
+  "slug": "trophy-plus",
+  "name": "TROPHY PLUS",
+  "series": "TROPHY PLUS",
+  "tagline": "Bold utility. Confident capability.",
+  "description": "4-forward + 2-rear-facing (6 passengers). 5 kW AC motor, 51.2V LiFePO4, 19 mph, 40 miles, 30% grade, 1,300+ lb haul. Adaptive suspension lowers 14 in. Front trunk, glove box, hidden under-seat, rear cargo, fold-down platform. 23 in. AT tires.",
+  "price": "$12,995",
+  "seats": "6",
+  "range": "Up to 40 miles",
+  "topSpeed": "19 mph",
+  "driveType": "Rear-Wheel Drive",
+  "category": "Trophy Plus",
+  "features": [
+    "6-Seat Layout (4 Forward + 2 Rear Facing)",
+    "5 kW AC Electric Motor",
+    "51.2V LiFePO4 Lithium Battery",
+    "Up to 40-Mile Range",
+    "3.5-Hour Fast Charge",
+    "1,300+ lb Hauling Capacity",
+    "30% Grade Climbing",
+    "Adaptive Suspension (Lowers 14 in.)",
+    "23 in. All-Terrain Tires",
+    "Full-Width Signature LED Front Lighting",
+    "Music-Synced LED Lighting (5 Modes)",
+    "Premium Sound System",
+    "10.1\" Touchscreen with Apple CarPlay & Android Auto",
+    "HD Rear-View Camera",
+    "Front Trunk + Glove Box + Under-Seat + Rear Cargo Storage",
+    "Fold-Down Rear Cargo Platform",
+    "Lifetime Chassis Warranty",
+    "8-Year Battery Warranty"
+  ],
+  "specs": [
+    {
+      "label": "Motor",
+      "value": "5 kW AC Electric Motor"
+    },
+    {
+      "label": "Battery",
+      "value": "51.2V LiFePO4 Lithium"
+    },
+    {
+      "label": "Top Speed",
+      "value": "19 mph"
+    },
+    {
+      "label": "Range",
+      "value": "Up to 40 miles"
+    },
+    {
+      "label": "Seating",
+      "value": "6 Passengers (4+2)"
+    },
+    {
+      "label": "Hauling Capacity",
+      "value": "1,300+ lbs"
+    },
+    {
+      "label": "Grade Climbing",
+      "value": "30%"
+    },
+    {
+      "label": "Tire Size",
+      "value": "23 in. All-Terrain"
+    },
+    {
+      "label": "Suspension",
+      "value": "Adaptive (lowers 14 in.)"
+    },
+    {
+      "label": "Charging",
+      "value": "3.5 hours (fast charge)"
+    },
+    {
+      "label": "Chassis Warranty",
+      "value": "Lifetime"
+    },
+    {
+      "label": "Battery Warranty",
+      "value": "8 Years (Personal Use)"
+    },
+    {
+      "label": "Components Warranty",
+      "value": "2 Years"
+    }
+  ],
+  "tigoUrl": "https://tigongolfcarts.com/"
+}

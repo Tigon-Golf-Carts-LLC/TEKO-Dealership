@@ -1,0 +1,69 @@
+{
+  "brand": "TEKO EV",
+  "slug": "turbolite",
+  "name": "TURBOLITE",
+  "series": "TURBOLITE",
+  "tagline": "Lightweight. Practical. Built for the course and beyond.",
+  "description": "Compact and designed for everyday mobility. Available in 2-seat and 2+2 configurations. 5 kW AC motor, 51.2V LiFePO4 battery, 10.1\" CarPlay touchscreen, HD rear-view camera, and dual golf bag mounts.",
+  "price": "$9,495",
+  "seats": "2 / 4",
+  "range": "Call for Details",
+  "topSpeed": "25 mph",
+  "driveType": "Rear-Wheel Drive",
+  "category": "TurboLite",
+  "features": [
+    "Available in 2-Seat & 2+2 Configurations",
+    "5 kW AC Electric Motor",
+    "51.2V LiFePO4 Lithium Battery",
+    "10.1\" Touchscreen with Apple CarPlay & Android Auto",
+    "HD Rear-View Camera",
+    "Dual Golf Bag Mounts",
+    "Built-In Scorecard Clip",
+    "Integrated Golf Ball Holder",
+    "Lifetime Chassis Warranty",
+    "8-Year Battery Warranty"
+  ],
+  "specs": [
+    {
+      "label": "Motor",
+      "value": "5 kW AC Electric Motor"
+    },
+    {
+      "label": "Battery",
+      "value": "51.2V LiFePO4 Lithium"
+    },
+    {
+      "label": "Seating",
+      "value": "2 or 4 Passengers"
+    },
+    {
+      "label": "Display",
+      "value": "10.1\" Touchscreen"
+    },
+    {
+      "label": "Connectivity",
+      "value": "Apple CarPlay / Android Auto"
+    },
+    {
+      "label": "Camera",
+      "value": "HD Rear-View Camera"
+    },
+    {
+      "label": "Charger Input",
+      "value": "100–240V AC"
+    },
+    {
+      "label": "Chassis Warranty",
+      "value": "Lifetime"
+    },
+    {
+      "label": "Battery Warranty",
+      "value": "8 Years (Personal Use)"
+    },
+    {
+      "label": "Components Warranty",
+      "value": "2 Years"
+    }
+  ],
+  "tigoUrl": "https://tigongolfcarts.com/"
+}

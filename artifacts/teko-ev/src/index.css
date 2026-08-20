@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-card-border: hsl(var(--card-border));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --font-sans: var(--app-font-sans);
+  --font-serif: var(--app-font-serif);
+  --font-mono: var(--app-font-mono);
+}
+
+:root {
+  --background: 42 33% 94%;
+  --foreground: 216 42% 12%;
+  --border: 214 18% 78%;
+  --input: 214 18% 78%;
+  --ring: 73 83% 48%;
+  --card: 42 39% 97%;
+  --card-foreground: 216 42% 12%;
+  --card-border: 214 18% 82%;
+  --primary: 216 42% 12%;
+  --primary-foreground: 42 33% 94%;
+  --secondary: 214 25% 88%;
+  --secondary-foreground: 216 42% 12%;
+  --muted: 213 18% 66%;
+  --muted-foreground: 215 24% 35%;
+  --accent: 73 83% 48%;
+  --accent-foreground: 216 42% 12%;
+  --destructive: 2 72% 51%;
+  --destructive-foreground: 42 33% 94%;
+  --app-font-sans: 'DM Sans', sans-serif;
+  --app-font-serif: 'Instrument Serif', serif;
+  --app-font-mono: 'DM Mono', monospace;
+  --radius: 0.3rem;
+}
+
+.dark {
+  --background: 216 42% 12%;
+  --foreground: 42 33% 94%;
+  --border: 214 25% 28%;
+  --input: 214 25% 28%;
+  --card: 216 38% 15%;
+  --card-foreground: 42 33% 94%;
+  --card-border: 214 25% 28%;
+  --primary: 73 83% 48%;
+  --primary-foreground: 216 42% 12%;
+  --secondary: 214 25% 22%;
+  --secondary-foreground: 42 33% 94%;
+  --muted: 214 18% 56%;
+  --muted-foreground: 214 18% 73%;
+  --accent: 73 83% 48%;
+  --accent-foreground: 216 42% 12%;
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; }
+  body { @apply font-sans antialiased bg-background text-foreground; }
+  ::selection { background: hsl(var(--accent)); color: hsl(var(--foreground)); }
+}
+
+@layer utilities {
+  .font-display { font-family: var(--app-font-serif); }
+  .font-mono-ui { font-family: var(--app-font-mono); }
+  .noise::after {
+    content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 50;
+    opacity: .025; mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");
+  }
+}
+
+.page-reveal { animation: pageReveal .75s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes pageReveal { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+.stagger-1 { animation-delay: .08s; } .stagger-2 { animation-delay: .16s; } .stagger-3 { animation-delay: .24s; }
+.image-zoom img { transition: transform .8s cubic-bezier(.2,.7,.2,1); }
+.image-zoom:hover img { transform: scale(1.045); }
+.line-arrow { transition: gap .25s ease; }
+.line-arrow:hover { gap: 1rem; }
+.accent-rule { width: 3.2rem; height: 2px; background: hsl(var(--accent)); }

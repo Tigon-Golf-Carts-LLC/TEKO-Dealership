@@ -1,0 +1,89 @@
+{
+  "brand": "TEKO EV",
+  "slug": "triumph",
+  "name": "TRIUMPH",
+  "series": "TRIUMPH",
+  "tagline": "Bold design. Smooth drive. Ultimate Triumph.",
+  "description": "Lifted 6-seater. 5 kW AC motor, 51.2V LiFePO4, 19 mph, 40 miles, 30% slopes, 1,300+ lb haul. Diamond-stitched seats with individual armrests and seatbelts at all positions, independent shocks, heavy-duty A-arms, 23\" AT tires, factory overhead soundbar with RGB ambient lighting.",
+  "price": "$12,995",
+  "seats": "6",
+  "range": "Up to 40 miles",
+  "topSpeed": "19 mph",
+  "driveType": "Rear-Wheel Drive",
+  "category": "Triumph / Flagship",
+  "features": [
+    "6 Forward-Facing Passengers",
+    "5 kW AC Electric Motor",
+    "51.2V LiFePO4 Lithium Battery",
+    "Up to 40-Mile Range",
+    "3.5-Hour Fast Charge",
+    "1,300+ lb Hauling Capacity",
+    "30% Grade Climbing",
+    "Lifted Chassis with Independent Shocks & Heavy-Duty A-Arms",
+    "23 in. Deep-Tread All-Terrain Tires",
+    "Premium Diamond-Stitched Seats w/ Individual Armrests",
+    "Overhead Soundbar with RGB Ambient Lighting",
+    "Roof-Mounted Speaker System",
+    "Full Metal Front Bumper",
+    "10.1\" Touchscreen with Apple CarPlay & Android Auto",
+    "HD Rear-View Camera",
+    "Rear Extended Trunk Storage",
+    "Lifetime Chassis Warranty",
+    "8-Year Battery Warranty"
+  ],
+  "specs": [
+    {
+      "label": "Motor",
+      "value": "5 kW AC Electric Motor"
+    },
+    {
+      "label": "Battery",
+      "value": "51.2V LiFePO4 Lithium"
+    },
+    {
+      "label": "Top Speed",
+      "value": "19 mph"
+    },
+    {
+      "label": "Range",
+      "value": "Up to 40 miles"
+    },
+    {
+      "label": "Seating",
+      "value": "6 Passengers (Forward Facing)"
+    },
+    {
+      "label": "Hauling Capacity",
+      "value": "1,300+ lbs"
+    },
+    {
+      "label": "Grade Climbing",
+      "value": "30%"
+    },
+    {
+      "label": "Suspension",
+      "value": "Independent Shocks + Heavy-Duty A-Arms"
+    },
+    {
+      "label": "Tire Size",
+      "value": "23 in. All-Terrain"
+    },
+    {
+      "label": "Charging",
+      "value": "3.5 hours (fast charge)"
+    },
+    {
+      "label": "Chassis Warranty",
+      "value": "Lifetime"
+    },
+    {
+      "label": "Battery Warranty",
+      "value": "8 Years (Personal Use)"
+    },
+    {
+      "label": "Components Warranty",
+      "value": "2 Years"
+    }
+  ],
+  "tigoUrl": "https://tigongolfcarts.com/"
+}
