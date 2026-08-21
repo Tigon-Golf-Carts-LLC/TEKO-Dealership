@@ -1,0 +1,4 @@
+Contact: https://teko-dealership.replit.app/contact
+Policy: https://teko-dealership.replit.app/about
+Preferred-Languages: en
+Canonical: https://teko-dealership.replit.app/.well-known/security.txt

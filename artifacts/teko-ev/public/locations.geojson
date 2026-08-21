@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "phone": "215-595-8736",
+        "address": "2333 Bethlehem Pike, Hatfield, PA 19440",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "phone": "609-840-0404",
+        "address": "101 NJ-50, Ocean View, NJ 08230",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "phone": "570-580-0567",
+        "address": "4738 PA-115, Long Pond, PA 18334",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "phone": "570-643-0152",
+        "address": "1712 Pennsylvania 940, Pocono Pines, PA 18350",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "phone": "302-546-0010",
+        "address": "5158 N Dupont Hwy, Dover, DE 19901",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "phone": "570-344-4443",
+        "address": "1225 N Keyser Ave #2, Scranton, PA 18504",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "phone": "984-489-0296",
+        "address": "2700 S Wilmington St, Raleigh, NC 27603",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "phone": "574-703-0456",
+        "address": "52129 State Road 933, South Bend, IN 46637",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "phone": "804-792-0234",
+        "address": "2810 George Washington Memorial Hwy, Gloucester Point, VA 23072",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "phone": "732-908-7166",
+        "address": "155 Atlantic City Blvd Bayville, NJ 08721",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "phone": "732-998-8146",
+        "address": "526 US-9 Waretown, NJ 08758",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "phone": "803-596-0246",
+        "address": "4166 North Rd, Orangeburg, SC 29118",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "phone": "419-402-8400",
+        "address": "10420 Airport Hwy, Swanton, OH 43558",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "phone": "352-453-0345",
+        "address": "299 E. Gulf to Lake Hwy, Lecanto, FL 34461",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "properties": {
+        "phone": "609-551-0234",
+        "address": "1304 NJ-47 b, Rio Grande, NJ 08242",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "properties": {
+        "phone": "940-716-3334",
+        "address": "3904 Sheppard Access Rd, Wichita Falls, TX 76306",
+        "coordinatesVerified": false
+      },
+      "geometry": null
+    }
+  ]
+}

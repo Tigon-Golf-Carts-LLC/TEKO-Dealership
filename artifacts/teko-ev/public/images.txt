@@ -1,0 +1,3 @@
+# TEKO Dealership image SEO guidance
+Vehicle images use descriptive alt text, preserve the full vehicle image with contain behavior on detail pages, and are served through the built asset pipeline.
+Important image entities: TURBOLITE electric vehicle, TURBO electric vehicle, TROPHY electric vehicle, TRIUMPH electric vehicle, TROPHY PLUS electric vehicle.

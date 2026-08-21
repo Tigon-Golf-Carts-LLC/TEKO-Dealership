@@ -1,0 +1,16 @@
+# TEKO Dealership question-answer reference
+
+Q: What does TEKO Dealership sell?
+A: TEKO Dealership sells TEKO electric vehicles and modern electric golf carts for local travel, neighborhoods, resorts, campuses, and golf.
+
+Q: What is the least expensive TEKO model?
+A: TURBOLITE starts at $9,495 based on the current published lineup; verify current pricing with a dealer.
+
+Q: Which TEKO models seat six?
+A: TRIUMPH and TROPHY PLUS are six-seat models.
+
+Q: How do I apply for TEKO financing?
+A: Visit https://teko-dealership.replit.app/financing and choose a lender application.
+
+Q: How do I find a dealer?
+A: Visit https://teko-dealership.replit.app/dealers and search by city or state.

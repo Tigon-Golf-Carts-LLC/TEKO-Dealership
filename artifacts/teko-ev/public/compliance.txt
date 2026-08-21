@@ -1,0 +1,3 @@
+# TEKO Dealership compliance notes
+The site uses semantic HTML and responsive accessible controls. Financing applications are handled by external lenders; lender eligibility, APR, fees, terms, and approval are controlled by each lender. No financing approval is promised by TEKO.
+For accessibility or privacy questions, call (215) 595-8736 or use https://teko-dealership.replit.app/contact.

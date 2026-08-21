@@ -1,0 +1,16 @@
+{
+  "name": "TEKO Dealership",
+  "short_name": "TEKO EV",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7fbff",
+  "theme_color": "#1769ff",
+  "description": "Electric vehicles and golf carts from TEKO Dealership.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

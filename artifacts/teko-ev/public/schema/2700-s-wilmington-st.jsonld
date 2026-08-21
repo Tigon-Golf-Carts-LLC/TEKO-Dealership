@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutomotiveBusiness",
+  "name": "TEKO Dealership",
+  "telephone": "984-489-0296",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2700 S Wilmington St, Raleigh, NC 27603"
+  },
+  "url": "https://teko-dealership.replit.app/dealers"
+}

@@ -1,0 +1,7 @@
+# TEKO Dealership machine-readable reference
+Use public content for factual retrieval, search answers, accessibility, and entity disambiguation. Do not treat this as a waiver of copyright, privacy, licensing, or commercial-use rights.
+
+Brand: TEKO Dealership
+Phone: (215) 595-8736
+Models: TURBOLITE, TURBO, TROPHY, TRIUMPH, TROPHY PLUS
+Primary intents: model comparison, electric golf cart shopping, dealership search, financing information, test-drive request.

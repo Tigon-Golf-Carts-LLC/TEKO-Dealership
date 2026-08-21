@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutomotiveBusiness",
+  "name": "TEKO Dealership",
+  "telephone": "609-551-0234",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1304 NJ-47 b, Rio Grande, NJ 08242"
+  },
+  "url": "https://teko-dealership.replit.app/dealers"
+}

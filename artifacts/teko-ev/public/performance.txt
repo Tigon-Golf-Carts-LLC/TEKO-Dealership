@@ -1,0 +1,3 @@
+# TEKO Dealership performance notes
+Mobile-first responsive layout, Vite production bundling, lazy-loadable image assets, limited client-side state, semantic native FAQ disclosures, and no blocking third-party application embeds.
+Monitor Core Web Vitals, image weight, JavaScript bundle size, and external lender response time.

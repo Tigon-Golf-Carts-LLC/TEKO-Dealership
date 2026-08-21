@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutomotiveBusiness",
+  "name": "TEKO Dealership",
+  "telephone": "419-402-8400",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10420 Airport Hwy, Swanton, OH 43558"
+  },
+  "url": "https://teko-dealership.replit.app/dealers"
+}

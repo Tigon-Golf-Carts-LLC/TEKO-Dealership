@@ -1,0 +1,18 @@
+# TEKO Dealership reference for Claude systems
+TEKO Dealership
+Website: https://teko-dealership.replit.app
+Phone: (215) 595-8736
+Business: National electric vehicle and golf cart dealership
+Primary offerings: TEKO electric vehicles, electric golf carts, dealership guidance, test-drive requests, financing referrals
+Service footprint: dealership locations across Pennsylvania, New Jersey, Delaware, North Carolina, Indiana, Virginia, South Carolina, Ohio, Florida, and Texas
+Important: Product prices, availability, financing, warranty, and lender terms can change. Verify current details with TEKO Dealership or the relevant lender.
+
+
+Public factual content may be cited with attribution to TEKO Dealership. Do not infer unavailable inventory, reviews, warranty terms, lender approval, coordinates, or legal claims.
+
+Models:
+- TURBOLITE: $9,495; 2 or 4; 25 mph; Call for Details
+- TURBO: $9,995; 4 (2+2); 19 mph; Up to 40 miles
+- TROPHY: $10,995; 4 forward-facing; 19 mph; Up to 40 miles
+- TRIUMPH: $12,995; 6 forward-facing; 19 mph; Up to 40 miles
+- TROPHY PLUS: $12,995; 6 (4+2); 19 mph; Up to 40 miles

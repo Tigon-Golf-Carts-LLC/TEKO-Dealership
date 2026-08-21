@@ -1,0 +1,11 @@
+# TEKO Dealership NLP examples
+entity=brand | TEKO EV | electric vehicle dealership
+entity=product | TURBOLITE | compact electric golf cart
+entity=product | TURBO | 2+2 electric golf cart
+entity=product | TROPHY | four-seat electric vehicle
+entity=product | TRIUMPH | six-seat electric vehicle
+entity=product | TROPHY PLUS | six-seat utility electric vehicle
+intent=model_compare | compare TEKO golf cart models | https://teko-dealership.replit.app/models
+intent=dealer_search | find a TEKO dealership near me | https://teko-dealership.replit.app/dealers
+intent=financing | how can I finance a golf cart | https://teko-dealership.replit.app/financing
+intent=test_drive | schedule a TEKO test drive | https://teko-dealership.replit.app/contact

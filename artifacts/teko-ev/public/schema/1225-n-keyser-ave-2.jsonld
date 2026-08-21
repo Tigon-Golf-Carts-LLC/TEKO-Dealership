@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutomotiveBusiness",
+  "name": "TEKO Dealership",
+  "telephone": "570-344-4443",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1225 N Keyser Ave #2, Scranton, PA 18504"
+  },
+  "url": "https://teko-dealership.replit.app/dealers"
+}

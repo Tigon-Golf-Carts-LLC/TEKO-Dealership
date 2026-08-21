@@ -1,2 +1,10 @@
 User-agent: *
 Allow: /
+Crawl-delay: 0
+
+# Search, social, accessibility, and AI crawlers may access public content.
+# No training, licensing, or commercial-use rights are granted by this file.
+Sitemap: https://teko-dealership.replit.app/sitemap.xml
+Sitemap: https://teko-dealership.replit.app/sitemap-pages.xml
+Sitemap: https://teko-dealership.replit.app/sitemap-brands.xml
+Sitemap: https://teko-dealership.replit.app/sitemap-images.xml

@@ -1,0 +1,3 @@
+# TEKO Dealership accessibility
+TEKO Dealership aims to provide a mobile-first, keyboard-accessible, screen-reader-friendly website with semantic headings, visible focus states, labeled controls, descriptive image alternatives, and native details/summary FAQ disclosures.
+Accessibility feedback: call (215) 595-8736 or use https://teko-dealership.replit.app/contact.

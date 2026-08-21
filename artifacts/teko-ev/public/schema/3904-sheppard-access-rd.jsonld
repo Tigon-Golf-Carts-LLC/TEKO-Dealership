@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutomotiveBusiness",
+  "name": "TEKO Dealership",
+  "telephone": "940-716-3334",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3904 Sheppard Access Rd, Wichita Falls, TX 76306"
+  },
+  "url": "https://teko-dealership.replit.app/dealers"
+}

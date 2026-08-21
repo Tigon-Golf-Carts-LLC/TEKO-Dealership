@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutomotiveBusiness",
+  "name": "TEKO Dealership",
+  "telephone": "215-595-8736",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2333 Bethlehem Pike, Hatfield, PA 19440"
+  },
+  "url": "https://teko-dealership.replit.app/dealers"
+}

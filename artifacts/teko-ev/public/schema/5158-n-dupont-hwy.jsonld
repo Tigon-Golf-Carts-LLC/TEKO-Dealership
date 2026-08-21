@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutomotiveBusiness",
+  "name": "TEKO Dealership",
+  "telephone": "302-546-0010",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5158 N Dupont Hwy, Dover, DE 19901"
+  },
+  "url": "https://teko-dealership.replit.app/dealers"
+}

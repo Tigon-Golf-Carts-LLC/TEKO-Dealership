@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutomotiveBusiness",
+  "name": "TEKO Dealership",
+  "telephone": "352-453-0345",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "299 E. Gulf to Lake Hwy, Lecanto, FL 34461"
+  },
+  "url": "https://teko-dealership.replit.app/dealers"
+}

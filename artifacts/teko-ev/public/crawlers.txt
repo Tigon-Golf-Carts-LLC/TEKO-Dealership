@@ -1,0 +1,4 @@
+# Crawler directory
+Allowed public crawler categories: search engines, image discovery, social previews, accessibility tools, and AI answer systems.
+Examples: Googlebot, Bingbot, DuckDuckBot, Slurp, YandexBot, Baiduspider, GPTBot, ChatGPT-User, Google-Extended, ClaudeBot, CCBot, facebookexternalhit, Twitterbot, LinkedInBot, Pinterest, Googlebot-Image.
+All crawlers must follow robots.txt and applicable law.

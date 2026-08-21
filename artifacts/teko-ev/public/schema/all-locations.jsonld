@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-1",
+      "name": "TEKO Dealership",
+      "telephone": "215-595-8736",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2333 Bethlehem Pike, Hatfield, PA 19440"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-2",
+      "name": "TEKO Dealership",
+      "telephone": "609-840-0404",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "101 NJ-50, Ocean View, NJ 08230"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-3",
+      "name": "TEKO Dealership",
+      "telephone": "570-580-0567",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4738 PA-115, Long Pond, PA 18334"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-4",
+      "name": "TEKO Dealership",
+      "telephone": "570-643-0152",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1712 Pennsylvania 940, Pocono Pines, PA 18350"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-5",
+      "name": "TEKO Dealership",
+      "telephone": "302-546-0010",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5158 N Dupont Hwy, Dover, DE 19901"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-6",
+      "name": "TEKO Dealership",
+      "telephone": "570-344-4443",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1225 N Keyser Ave #2, Scranton, PA 18504"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-7",
+      "name": "TEKO Dealership",
+      "telephone": "984-489-0296",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2700 S Wilmington St, Raleigh, NC 27603"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-8",
+      "name": "TEKO Dealership",
+      "telephone": "574-703-0456",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "52129 State Road 933, South Bend, IN 46637"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-9",
+      "name": "TEKO Dealership",
+      "telephone": "804-792-0234",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2810 George Washington Memorial Hwy, Gloucester Point, VA 23072"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-10",
+      "name": "TEKO Dealership",
+      "telephone": "732-908-7166",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "155 Atlantic City Blvd Bayville, NJ 08721"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-11",
+      "name": "TEKO Dealership",
+      "telephone": "732-998-8146",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "526 US-9 Waretown, NJ 08758"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-12",
+      "name": "TEKO Dealership",
+      "telephone": "803-596-0246",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4166 North Rd, Orangeburg, SC 29118"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-13",
+      "name": "TEKO Dealership",
+      "telephone": "419-402-8400",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "10420 Airport Hwy, Swanton, OH 43558"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-14",
+      "name": "TEKO Dealership",
+      "telephone": "352-453-0345",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "299 E. Gulf to Lake Hwy, Lecanto, FL 34461"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-15",
+      "name": "TEKO Dealership",
+      "telephone": "609-551-0234",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1304 NJ-47 b, Rio Grande, NJ 08242"
+      }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://teko-dealership.replit.app/dealers#location-16",
+      "name": "TEKO Dealership",
+      "telephone": "940-716-3334",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3904 Sheppard Access Rd, Wichita Falls, TX 76306"
+      }
+    }
+  ]
+}
