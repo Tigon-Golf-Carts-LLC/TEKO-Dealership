@@ -59,6 +59,110 @@ function Seo({ title, description, schema }: { title: string; description: strin
   return null;
 }
 
+type FaqItem = { question: string; answer: string };
+
+const pageFaqs: Record<string, FaqItem[]> = {
+  home: [
+    { question: 'What is a TEKO electric vehicle?', answer: 'A TEKO electric vehicle is a purpose-built low-speed vehicle for neighborhoods, resorts, campuses, golf, and everyday local travel.' },
+    { question: 'Are TEKO vehicles golf carts?', answer: 'Yes. TEKO vehicles are modern electric golf carts designed with practical comfort, storage, technology, and road-ready neighborhood mobility in mind.' },
+    { question: 'How far can a TEKO EV travel?', answer: 'Most TEKO models offer up to 40 miles of range, while TURBOLITE range is available by configuration and use case.' },
+    { question: 'Which TEKO model is the most affordable?', answer: 'TURBOLITE is the most affordable TEKO model, with a starting MSRP of $9,495.' },
+    { question: 'How many people can a TEKO golf cart carry?', answer: 'TEKO offers compact two-seat models, flexible 2+2 and four-seat models, and six-seat models for larger groups.' },
+    { question: 'Where can I buy a TEKO vehicle?', answer: 'You can visit a TEKO dealership through the dealer network to see vehicles in person, ask questions, and request a drive.' },
+    { question: 'Can I request a TEKO test drive?', answer: 'Yes. Use the contact page to request information or a test drive, or find a nearby TEKO dealership.' },
+    { question: 'What warranty support comes with a TEKO EV?', answer: 'TEKO models include a lifetime chassis warranty and an 8-year battery warranty for personal use, with model-specific component coverage.' },
+  ],
+  models: [
+    { question: 'Which TEKO model should I choose?', answer: 'Choose based on passengers, storage, terrain, and daily route. TURBOLITE is compact, TURBO is a flexible 2+2, TROPHY is a refined four-seat option, and TROPHY PLUS or TRIUMPH add six-seat capacity.' },
+    { question: 'What is the cheapest TEKO electric vehicle?', answer: 'TURBOLITE starts at $9,495, followed by TURBO at $9,995 and TROPHY at $10,995.' },
+    { question: 'Which TEKO model has six seats?', answer: 'TRIUMPH and TROPHY PLUS both provide six-seat capacity, with different layouts and utility-focused features.' },
+    { question: 'Do TEKO models have Apple CarPlay?', answer: 'Many TEKO models include a 10.1-inch touchscreen with Apple CarPlay and Android Auto; see each model page for exact equipment.' },
+    { question: 'How fast can a TEKO golf cart go?', answer: 'Most TEKO models reach up to 19 mph. TURBOLITE is listed with a 25 mph top speed.' },
+    { question: 'Which TEKO EV is best for golf?', answer: 'TURBOLITE is the most course-focused choice, with compact configurations, dual golf bag mounts, a scorecard clip, and an integrated golf ball holder.' },
+    { question: 'Do TEKO vehicles have cargo storage?', answer: 'Yes. Storage varies by model and can include front trunks, rear cargo compartments, glove boxes, side consoles, under-seat storage, and fold-down platforms.' },
+    { question: 'Can I compare TEKO models at a dealership?', answer: 'Yes. A TEKO dealership can help you compare seating, range, storage, equipment, and fit for your local route.' },
+  ],
+  dealers: [
+    { question: 'Where is the nearest TEKO dealership?', answer: 'Use the dealership search on this page to find a TEKO location by city or state.' },
+    { question: 'Can I see TEKO golf carts in person?', answer: 'Yes. Local TEKO dealerships can help you see available models and discuss the right configuration.' },
+    { question: 'Can I schedule a TEKO test drive?', answer: 'Yes. Contact TEKO or your nearest dealership to request a test drive.' },
+    { question: 'What should I ask a TEKO dealer?', answer: 'Ask about passenger capacity, range, charging, storage, terrain, warranty coverage, delivery, and which model best fits your route.' },
+    { question: 'Do TEKO dealerships help with model selection?', answer: 'Yes. Dealers can compare the lineup and recommend a model based on your passengers, property, use, and comfort needs.' },
+    { question: 'Are TEKO dealerships available nationwide?', answer: 'TEKO has a growing national dealership network with locations across multiple states.' },
+    { question: 'Can I contact a TEKO dealership by phone?', answer: 'Yes. Each listed dealership includes a phone number so you can connect directly with a local specialist.' },
+    { question: 'Can I get directions to a TEKO dealership?', answer: 'Yes. Select Directions on any dealer card to open the location in Google Maps.' },
+  ],
+  contact: [
+    { question: 'How do I contact TEKO Dealership?', answer: 'Use the contact form to request information, ask about a model, or start a test-drive conversation.' },
+    { question: 'Can I request a TEKO test drive online?', answer: 'Yes. Submit the contact form and tell us which model you want to experience.' },
+    { question: 'What information should I include in my request?', answer: 'Share your preferred model, passenger needs, typical route, location, and any questions about charging, storage, or equipment.' },
+    { question: 'Can TEKO help me choose a golf cart?', answer: 'Yes. A TEKO product specialist can help match seating, range, storage, terrain, and features to your daily use.' },
+    { question: 'How do I find a local TEKO dealer?', answer: 'Use the dealer locator to search by city or state and connect with a nearby dealership.' },
+    { question: 'Can I ask about more than one TEKO model?', answer: 'Yes. Include multiple models or describe your needs and a specialist can help compare the lineup.' },
+    { question: 'Does TEKO offer six-seat electric vehicles?', answer: 'Yes. TRIUMPH and TROPHY PLUS are six-seat TEKO options.' },
+    { question: 'Can I ask about warranty coverage?', answer: 'Yes. Contact TEKO for model-specific warranty details, including chassis, battery, and component coverage.' },
+  ],
+  about: [
+    { question: 'What is TEKO Dealership?', answer: 'TEKO Dealership is a national electric vehicle and golf cart dealership focused on better local mobility.' },
+    { question: 'What does TEKO stand for?', answer: 'TEKO represents a considered approach to simple, comfortable, and capable electric transportation for everyday local journeys.' },
+    { question: 'What kinds of vehicles does TEKO sell?', answer: 'TEKO sells low-speed electric vehicles and modern golf carts for neighborhoods, resorts, campuses, golf, and local errands.' },
+    { question: 'Why choose an electric golf cart for local travel?', answer: 'Electric golf carts can make short trips quieter, simpler, and more efficient while providing comfortable mobility close to home.' },
+    { question: 'Does TEKO have a dealership network?', answer: 'Yes. TEKO works with a growing national dealer network so customers can connect with local specialists.' },
+    { question: 'Are TEKO vehicles practical for everyday use?', answer: 'Yes. The lineup includes useful storage, comfortable seating, responsive electric drive, and configurations for different passenger needs.' },
+    { question: 'Which TEKO model is best for a small household?', answer: 'TURBOLITE is a compact choice, while TURBO provides flexible 2+2 seating for customers who need room for more.' },
+    { question: 'How do I learn more about TEKO vehicles?', answer: 'Explore the models, visit a dealer, or contact a TEKO product specialist with questions about your route.' },
+  ],
+};
+
+function modelFaqs(model: Model): FaqItem[] {
+  return [
+    { question: `What is the ${model.name} starting price?`, answer: `${model.name} starts at ${model.price}.` },
+    { question: `How many people can the ${model.name} carry?`, answer: `${model.name} seats ${model.seats} passengers.` },
+    { question: `What is the ${model.name} range?`, answer: `The ${model.name} offers ${model.range.toLowerCase()}.` },
+    { question: `How fast is the ${model.name}?`, answer: `The ${model.name} has a listed top speed of ${model.topSpeed}.` },
+    { question: `What type of drive does the ${model.name} use?`, answer: `The ${model.name} uses ${model.driveType.toLowerCase()}.` },
+    { question: `Who is the ${model.name} best for?`, answer: `${model.name} is designed for ${model.tagline.toLowerCase()} Its configuration makes it a strong fit for local travel, neighborhood routes, resorts, campuses, or golf depending on your needs.` },
+    { question: `What are the key features of the ${model.name}?`, answer: `Highlights include ${model.features.slice(0, 4).join(', ')}.` },
+    { question: `Where can I see or drive a ${model.name}?`, answer: `Contact TEKO or use the dealer locator to connect with a nearby TEKO dealership and request information or a test drive.` },
+  ];
+}
+
+function FaqSection({ items, eyebrow }: { items: FaqItem[]; eyebrow: string }) {
+  useEffect(() => {
+    let jsonLd = document.head.querySelector('#teko-faq-jsonld') as HTMLScriptElement | null;
+    if (!jsonLd) {
+      jsonLd = document.createElement('script');
+      jsonLd.id = 'teko-faq-jsonld';
+      jsonLd.type = 'application/ld+json';
+      document.head.appendChild(jsonLd);
+    }
+    jsonLd.textContent = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: items.map(item => ({
+        '@type': 'Question',
+        name: item.question,
+        acceptedAnswer: { '@type': 'Answer', text: item.answer },
+      })),
+    });
+    return () => {
+      document.head.querySelector('#teko-faq-jsonld')?.remove();
+    };
+  }, [items]);
+
+  return <section className="faq-section bg-white px-5 py-16 md:px-10 md:py-24" aria-labelledby="faq-heading"><div className="mx-auto max-w-[1100px]"><div className="mb-10 max-w-2xl"><SectionLabel>{eyebrow}</SectionLabel><h2 id="faq-heading" className="mt-4 font-display text-5xl font-semibold leading-[.93] tracking-[-.05em] text-[#082a66] md:text-7xl">Questions,<br/><span className="text-[#1769ff]">answered.</span></h2></div><div className="grid gap-4 md:grid-cols-2">{items.map(item => <details key={item.question} className="faq-item glass rounded-2xl"><summary className="flex cursor-pointer list-none items-center justify-between gap-5 p-5 text-sm font-semibold text-[#173b73]"><span>{item.question}</span><span className="faq-plus grid h-8 w-8 shrink-0 place-items-center rounded-full bg-[#eaf2ff] font-display text-xl font-normal text-[#1769ff]">+</span></summary><p className="px-5 pb-5 text-sm leading-7 text-[#52709f]">{item.answer}</p></details>)}</div></div></section>;
+}
+
+function RouteFaqs() {
+  const [location] = useLocation();
+  const slug = location.match(/^\/models\/([^/]+)$/)?.[1];
+  const model = slug ? models.find(item => item.slug === slug) : undefined;
+  const items = model ? modelFaqs(model) : location === '/' ? pageFaqs.home : location === '/models' ? pageFaqs.models : location === '/dealers' ? pageFaqs.dealers : location === '/contact' ? pageFaqs.contact : location === '/about' ? pageFaqs.about : null;
+  if (!items) return null;
+  const eyebrow = model ? `${model.name} questions` : location === '/dealers' ? 'Dealership questions' : 'TEKO answers';
+  return <FaqSection items={items} eyebrow={eyebrow}/>;
+}
+
 function Header() {
   const [open, setOpen] = useState(false);
   const [location] = useLocation();
@@ -96,14 +200,14 @@ function Footer() {
   </footer>;
 }
 
-function Shell({ children }: { children: ReactNode }) { return <div className="noise min-h-[100dvh]"><Header/>{children}<Footer/></div>; }
+function Shell({ children }: { children: ReactNode }) { return <div className="noise min-h-[100dvh]"><Header/>{children}<RouteFaqs/><Footer/></div>; }
 
 function ButtonLink({ href, children, inverted = false, outline = false }: { href: string; children: ReactNode; inverted?: boolean; outline?: boolean }) {
   return <Link href={href} className={`line-arrow inline-flex items-center gap-3 rounded-full border px-5 py-3.5 text-[11px] font-bold uppercase tracking-[.1em] ${inverted ? 'cta-outline' : outline ? 'border-[#1769ff] text-[#1769ff] hover:bg-[#1769ff] hover:text-white' : 'cta-primary'}`} data-testid={`link-cta-${href.replaceAll('/','-')}`}><span>{children}</span><ArrowRight size={14}/></Link>;
 }
 
 function SectionLabel({ children, light = false }: { children: ReactNode; light?: boolean }) {
-  const label = children === 'The TEKO collection' ? 'The TEKO electric vehicle collection' : children;
+  const label = children === 'The TEKO collection' ? 'The TEKO electric vehicle collection' : children === 'The TEKO network' ? 'TEKO Dealerships' : children;
   return <p className={`font-mono-ui text-[10px] uppercase tracking-[.15em] ${light ? 'text-[#a9c9ff]' : 'section-label'}`}>{label}</p>;
 }
 
