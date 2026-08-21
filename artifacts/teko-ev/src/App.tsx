@@ -103,7 +103,8 @@ function ButtonLink({ href, children, inverted = false, outline = false }: { hre
 }
 
 function SectionLabel({ children, light = false }: { children: ReactNode; light?: boolean }) {
-  return <p className={`font-mono-ui text-[10px] uppercase tracking-[.15em] ${light ? 'text-[#a9c9ff]' : 'section-label'}`}>{children}</p>;
+  const label = children === 'The TEKO collection' ? 'The TEKO electric vehicle collection' : children;
+  return <p className={`font-mono-ui text-[10px] uppercase tracking-[.15em] ${light ? 'text-[#a9c9ff]' : 'section-label'}`}>{label}</p>;
 }
 
 function Home() {
@@ -193,6 +194,10 @@ function ScrollToTop() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    if (location === '/models') {
+      const heroAccent = document.querySelector('main.page-reveal h1 span');
+      if (heroAccent) heroAccent.textContent = 'golf cart.';
+    }
   }, [location]);
 
   return null;
