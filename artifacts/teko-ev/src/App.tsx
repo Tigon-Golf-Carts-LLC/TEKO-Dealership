@@ -350,7 +350,7 @@ function ScrollToTop() {
   return null;
 }
 
-function Router() { return <><ScrollToTop/><Switch><Route path="/" component={Home}/><Route path="/models" component={Models}/><Route path="/models/:slug" component={ModelPage}/><Route path="/dealers" component={Dealers}/><Route path="/contact" component={Contact}/><Route path="/about" component={About}/><Route component={NotFound}/></Switch></>; }
+function Router() { return <><ScrollToTop/><Switch><Route path="/" component={Home}/><Route path="/models" component={Models}/><Route path="/models/:slug" component={ModelPage}/><Route path="/financing" component={Financing}/><Route path="/dealers" component={Dealers}/><Route path="/contact" component={Contact}/><Route path="/about" component={About}/><Route component={NotFound}/></Switch></>; }
 const queryClient = new QueryClient();
 function App() { return <QueryClientProvider client={queryClient}><TooltipProvider><Router/><Toaster/></TooltipProvider></QueryClientProvider>; }
 export default App;
