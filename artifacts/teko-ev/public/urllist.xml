@@ -1,11 +1,14 @@
-https://teko-dealership.replit.app/
-https://teko-dealership.replit.app/models
-https://teko-dealership.replit.app/financing
-https://teko-dealership.replit.app/dealers
-https://teko-dealership.replit.app/contact
-https://teko-dealership.replit.app/about
-https://teko-dealership.replit.app/models/turbolite
-https://teko-dealership.replit.app/models/turbo
-https://teko-dealership.replit.app/models/trophy
-https://teko-dealership.replit.app/models/triumph
-https://teko-dealership.replit.app/models/trophy-plus
+<?xml version="1.0" encoding="UTF-8"?>
+<urlList xmlns="https://teko-dealership.replit.app/schema/urls">
+  <url>https://teko-dealership.replit.app/</url>
+  <url>https://teko-dealership.replit.app/models</url>
+  <url>https://teko-dealership.replit.app/financing</url>
+  <url>https://teko-dealership.replit.app/dealers</url>
+  <url>https://teko-dealership.replit.app/contact</url>
+  <url>https://teko-dealership.replit.app/about</url>
+  <url>https://teko-dealership.replit.app/models/turbolite</url>
+  <url>https://teko-dealership.replit.app/models/turbo</url>
+  <url>https://teko-dealership.replit.app/models/trophy</url>
+  <url>https://teko-dealership.replit.app/models/triumph</url>
+  <url>https://teko-dealership.replit.app/models/trophy-plus</url>
+</urlList>
