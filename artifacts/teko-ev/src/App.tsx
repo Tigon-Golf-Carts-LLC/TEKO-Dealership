@@ -91,7 +91,7 @@ function Footer() {
         <div><p className="font-mono-ui text-[10px] uppercase tracking-[.16em] text-[#8ab7ff]">Connect</p><div className="mt-5 grid gap-3 text-sm text-[#d8e6ff]"><Link href="/contact" data-testid="link-footer-contact">Request information</Link><a href="tel:2155958736" data-testid="link-footer-phone">(215) 595-8736</a><span className="text-[#a9c0e5]">Mon–Fri, 9–5 ET</span></div></div>
         <div><p className="font-mono-ui text-[10px] uppercase tracking-[.16em] text-[#8ab7ff]">Built for</p><p className="mt-5 text-sm leading-7 text-[#d8e6ff]">Neighborhoods<br/>Resorts and campuses<br/>Golf and everyday travel</p></div>
       </div>
-      <div className="mt-16 flex flex-col justify-between gap-4 border-t border-white/15 pt-6 text-[10px] uppercase tracking-[.14em] text-[#91abd1] md:flex-row"><span>© 2026 TEKO EV</span><span>National electric vehicle dealership</span></div>
+      <div className="mt-16 flex flex-col justify-between gap-4 border-t border-white/15 pt-6 text-[10px] uppercase tracking-[.14em] text-[#91abd1] md:flex-row"><span>© 2026 TEKO EV</span><span>Authorized TEKO Dealership</span></div>
     </div>
   </footer>;
 }
