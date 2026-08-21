@@ -1,10 +1,10 @@
 {
   "name": "TEKO Dealership locations",
-  "phone": "(215) 595-8736",
+  "phone": "1-844-847-9438",
   "locations": [
     {
       "id": 1,
-      "phone": "215-595-8736",
+      "phone": "1-844-847-9438",
       "address": "2333 Bethlehem Pike, Hatfield, PA 19440",
       "verifiedCoordinates": false
     },

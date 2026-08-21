@@ -1,7 +1,7 @@
 /* TEAM */
 Brand: TEKO Dealership
 Website: https://teko-dealership.replit.app
-Contact: (215) 595-8736
+Contact: 1-844-847-9438
 /* SITE */
 Technology: React, Vite, TypeScript, Tailwind CSS
 Last updated: 2026-08-21

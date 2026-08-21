@@ -2,7 +2,7 @@
 
 TEKO Dealership
 Website: https://teko-dealership.replit.app
-Phone: (215) 595-8736
+Phone: 1-844-847-9438
 Business: National electric vehicle and golf cart dealership
 Primary offerings: TEKO electric vehicles, electric golf carts, dealership guidance, test-drive requests, financing referrals
 Service footprint: dealership locations across Pennsylvania, New Jersey, Delaware, North Carolina, Indiana, Virginia, South Carolina, Ohio, Florida, and Texas
@@ -66,7 +66,7 @@ Range: Up to 40 miles
 Description: Six-seat utility-focused electric vehicle with adaptive suspension, front and rear cargo storage, fold-down cargo platform, and 1,300+ lb hauling capacity.
 
 ## Dealer directory
-- 2333 Bethlehem Pike, Hatfield, PA 19440 | 215-595-8736
+- 2333 Bethlehem Pike, Hatfield, PA 19440 | 1-844-847-9438
 - 101 NJ-50, Ocean View, NJ 08230 | 609-840-0404
 - 4738 PA-115, Long Pond, PA 18334 | 570-580-0567
 - 1712 Pennsylvania 940, Pocono Pines, PA 18350 | 570-643-0152
