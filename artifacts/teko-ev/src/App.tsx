@@ -66,7 +66,7 @@ function Header() {
   return <header className="site-header fixed top-0 z-40 w-full border-b backdrop-blur-xl">
     <div className="mx-auto flex h-[76px] max-w-[1440px] items-center justify-between px-5 md:px-10">
       <Link href="/" className="flex items-center gap-3" data-testid="link-home">
-        <span className="brand-mark grid h-9 w-9 place-items-center rounded-[11px] bg-[#1769ff] text-white"><Zap size={17} fill="currentColor" strokeWidth={2.6}/></span>
+        <span className="brand-mark grid h-9 w-9 place-items-center rounded-[11px] bg-[#1769ff] font-display text-xl font-bold text-white">T</span>
         <span className="font-display text-[15px] font-bold tracking-[.18em] text-[#082a66]">TEKO<span className="text-[#e23a3a]">EV</span></span>
       </Link>
       <nav className="hidden items-center gap-9 md:flex">
