@@ -115,7 +115,7 @@ function Home() {
           <div className="relative z-10">
             <div className="accent-rule mb-7"/>
             <h1 className="font-mono-ui text-[10px] uppercase tracking-[.15em] section-label">TEKO EV DEALERSHIP</h1>
-            <h2 className="mt-5 max-w-2xl font-display text-[clamp(3.7rem,9vw,8.3rem)] font-semibold leading-[.88] tracking-[-.07em] text-[#082a66]">Your next<br/><span className="text-[#1769ff]">move,</span> made easy.</h2>
+            <h2 className="mt-5 max-w-2xl font-display text-[clamp(3.7rem,9vw,8.3rem)] font-semibold leading-[.88] tracking-[-.07em] text-[#082a66]">Your next<br/><span className="text-[#1769ff]">golf cart,</span> made easy.</h2>
             <p className="mt-8 max-w-md text-base leading-7 text-[#35527e] md:text-lg">Electric vehicles with the comfort, capability, and calm confidence to make every local mile feel like the right one.</p>
             <div className="mt-9 flex flex-wrap gap-3"><ButtonLink href="/models">Explore the lineup</ButtonLink><ButtonLink href="/dealers" outline>Find a dealer</ButtonLink></div>
             <div className="mt-12 flex items-center gap-3 text-xs text-[#52709f]"><span className="grid h-7 w-7 place-items-center rounded-full bg-[#e7f1ff] text-[#1769ff]"><Zap size={13}/></span><span>Low-speed electric mobility, thoughtfully equipped.</span></div>
