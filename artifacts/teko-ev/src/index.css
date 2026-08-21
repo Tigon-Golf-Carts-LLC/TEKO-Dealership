@@ -125,6 +125,9 @@
 .card-hover:hover { transform: translateY(-5px); box-shadow: 0 24px 55px hsl(218 56% 22% / .13); border-color: hsl(216 92% 54% / .42); }
 .field-line { border-color: hsl(214 35% 78%); }
 .field-line:focus { border-color: hsl(216 92% 54%); box-shadow: 0 1px 0 hsl(216 92% 54%); }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-plus { transition: transform .2s ease, background-color .2s ease, color .2s ease; }
+.faq-item[open] .faq-plus { transform: rotate(45deg); background: hsl(216 92% 54%); color: white; }
 
 @media (max-width: 767px) {
   .glass { box-shadow: 0 12px 35px hsl(218 56% 22% / .08); }
