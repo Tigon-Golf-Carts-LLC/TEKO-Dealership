@@ -1,0 +1,16 @@
+{
+  // Static-assets-only Worker: no server code, Cloudflare serves the teko-ev
+  // Vite build output directly. `not_found_handling` sends unmatched paths to
+  // index.html so the client-side (wouter) routes resolve instead of 404ing.
+  //
+  // This lives at the repo root on purpose: Workers Builds runs `wrangler deploy`
+  // here, and without a config at the working directory Wrangler refuses to pick
+  // a project out of the 9-package workspace.
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "tekodealership",
+  "compatibility_date": "2026-08-24",
+  "assets": {
+    "directory": "./artifacts/teko-ev/dist/public",
+    "not_found_handling": "single-page-application"
+  }
+}
