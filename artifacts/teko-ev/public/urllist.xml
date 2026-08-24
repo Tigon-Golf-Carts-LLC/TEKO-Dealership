@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlList xmlns="https://teko-dealership.replit.app/schema/urls">
-  <url>https://teko-dealership.replit.app/</url>
-  <url>https://teko-dealership.replit.app/models</url>
-  <url>https://teko-dealership.replit.app/financing</url>
-  <url>https://teko-dealership.replit.app/dealers</url>
-  <url>https://teko-dealership.replit.app/contact</url>
-  <url>https://teko-dealership.replit.app/about</url>
-  <url>https://teko-dealership.replit.app/models/turbolite</url>
-  <url>https://teko-dealership.replit.app/models/turbo</url>
-  <url>https://teko-dealership.replit.app/models/trophy</url>
-  <url>https://teko-dealership.replit.app/models/triumph</url>
-  <url>https://teko-dealership.replit.app/models/trophy-plus</url>
+<urlList xmlns="https://tekodealership.com/schema/urls">
+  <url>https://tekodealership.com/</url>
+  <url>https://tekodealership.com/models</url>
+  <url>https://tekodealership.com/financing</url>
+  <url>https://tekodealership.com/dealers</url>
+  <url>https://tekodealership.com/contact</url>
+  <url>https://tekodealership.com/about</url>
+  <url>https://tekodealership.com/models/turbolite</url>
+  <url>https://tekodealership.com/models/turbo</url>
+  <url>https://tekodealership.com/models/trophy</url>
+  <url>https://tekodealership.com/models/triumph</url>
+  <url>https://tekodealership.com/models/trophy-plus</url>
 </urlList>

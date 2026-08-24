@@ -1,7 +1,7 @@
 # TEKO Dealership
 
 TEKO Dealership
-Website: https://teko-dealership.replit.app
+Website: https://tekodealership.com
 Phone: 1-844-847-9438
 Business: National electric vehicle and golf cart dealership
 Primary offerings: TEKO electric vehicles, electric golf carts, dealership guidance, test-drive requests, financing referrals
@@ -9,17 +9,17 @@ Service footprint: dealership locations across Pennsylvania, New Jersey, Delawar
 Important: Product prices, availability, financing, warranty, and lender terms can change. Verify current details with TEKO Dealership or the relevant lender.
 
 ## Preferred pages
-- https://teko-dealership.replit.app/
-- https://teko-dealership.replit.app/models
-- https://teko-dealership.replit.app/financing
-- https://teko-dealership.replit.app/dealers
-- https://teko-dealership.replit.app/contact
-- https://teko-dealership.replit.app/about
-- https://teko-dealership.replit.app/models/turbolite
-- https://teko-dealership.replit.app/models/turbo
-- https://teko-dealership.replit.app/models/trophy
-- https://teko-dealership.replit.app/models/triumph
-- https://teko-dealership.replit.app/models/trophy-plus
+- https://tekodealership.com/
+- https://tekodealership.com/models
+- https://tekodealership.com/financing
+- https://tekodealership.com/dealers
+- https://tekodealership.com/contact
+- https://tekodealership.com/about
+- https://tekodealership.com/models/turbolite
+- https://tekodealership.com/models/turbo
+- https://tekodealership.com/models/trophy
+- https://tekodealership.com/models/triumph
+- https://tekodealership.com/models/trophy-plus
 
 ## Summary
 TEKO Dealership helps customers find modern electric vehicles and golf carts for neighborhoods, resorts, campuses, golf, and everyday local travel. The lineup includes TURBOLITE, TURBO, TROPHY, TRIUMPH, and TROPHY PLUS.

@@ -3,16 +3,16 @@
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://teko-dealership.replit.app/#organization",
+      "@id": "https://tekodealership.com/#organization",
       "name": "TEKO Dealership",
-      "url": "https://teko-dealership.replit.app",
+      "url": "https://tekodealership.com",
       "telephone": "+1-844-847-9438"
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/#business",
+      "@id": "https://tekodealership.com/#business",
       "name": "TEKO Dealership",
-      "url": "https://teko-dealership.replit.app",
+      "url": "https://tekodealership.com",
       "telephone": "+1-844-847-9438",
       "areaServed": [
         "Pennsylvania",
@@ -34,13 +34,13 @@
         "@type": "Brand",
         "name": "TEKO"
       },
-      "url": "https://teko-dealership.replit.app/models/turbolite",
+      "url": "https://tekodealership.com/models/turbolite",
       "offers": {
         "@type": "Offer",
         "price": "9495",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://teko-dealership.replit.app/models/turbolite"
+        "url": "https://tekodealership.com/models/turbolite"
       },
       "description": "Compact golf cart available in 2-seat and 2+2 configurations with golf bag mounts, scorecard clip, golf ball holder, 5 kW AC motor, and 51.2V LiFePO4 battery."
     },
@@ -51,13 +51,13 @@
         "@type": "Brand",
         "name": "TEKO"
       },
-      "url": "https://teko-dealership.replit.app/models/turbo",
+      "url": "https://tekodealership.com/models/turbo",
       "offers": {
         "@type": "Offer",
         "price": "9995",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://teko-dealership.replit.app/models/turbo"
+        "url": "https://tekodealership.com/models/turbo"
       },
       "description": "Flexible 2+2 electric golf cart with front and rear cargo compartments, side console storage, CarPlay, Android Auto, and HD rear-view camera."
     },
@@ -68,13 +68,13 @@
         "@type": "Brand",
         "name": "TEKO"
       },
-      "url": "https://teko-dealership.replit.app/models/trophy",
+      "url": "https://tekodealership.com/models/trophy",
       "offers": {
         "@type": "Offer",
         "price": "10995",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://teko-dealership.replit.app/models/trophy"
+        "url": "https://tekodealership.com/models/trophy"
       },
       "description": "Refined four-seat electric vehicle with 5 kW AC motor, lithium battery, premium sound, LED lighting, touchscreen, and HD rear-view camera."
     },
@@ -85,13 +85,13 @@
         "@type": "Brand",
         "name": "TEKO"
       },
-      "url": "https://teko-dealership.replit.app/models/triumph",
+      "url": "https://tekodealership.com/models/triumph",
       "offers": {
         "@type": "Offer",
         "price": "12995",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://teko-dealership.replit.app/models/triumph"
+        "url": "https://tekodealership.com/models/triumph"
       },
       "description": "Lifted six-seat electric vehicle with 1,300+ lb hauling capacity, 30% grade climbing, independent shocks, all-terrain tires, and premium seating."
     },
@@ -102,13 +102,13 @@
         "@type": "Brand",
         "name": "TEKO"
       },
-      "url": "https://teko-dealership.replit.app/models/trophy-plus",
+      "url": "https://tekodealership.com/models/trophy-plus",
       "offers": {
         "@type": "Offer",
         "price": "12995",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://teko-dealership.replit.app/models/trophy-plus"
+        "url": "https://tekodealership.com/models/trophy-plus"
       },
       "description": "Six-seat utility-focused electric vehicle with adaptive suspension, front and rear cargo storage, fold-down cargo platform, and 1,300+ lb hauling capacity."
     }

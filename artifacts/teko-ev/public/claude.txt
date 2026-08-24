@@ -1,6 +1,6 @@
 # TEKO Dealership reference for Claude systems
 TEKO Dealership
-Website: https://teko-dealership.replit.app
+Website: https://tekodealership.com
 Phone: 1-844-847-9438
 Business: National electric vehicle and golf cart dealership
 Primary offerings: TEKO electric vehicles, electric golf carts, dealership guidance, test-drive requests, financing referrals

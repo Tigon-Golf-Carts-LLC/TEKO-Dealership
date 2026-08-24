@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-1",
+      "@id": "https://tekodealership.com/dealers#location-1",
       "name": "TEKO Dealership",
       "telephone": "1-844-847-9438",
       "address": {
@@ -13,7 +13,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-2",
+      "@id": "https://tekodealership.com/dealers#location-2",
       "name": "TEKO Dealership",
       "telephone": "609-840-0404",
       "address": {
@@ -23,7 +23,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-3",
+      "@id": "https://tekodealership.com/dealers#location-3",
       "name": "TEKO Dealership",
       "telephone": "570-580-0567",
       "address": {
@@ -33,7 +33,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-4",
+      "@id": "https://tekodealership.com/dealers#location-4",
       "name": "TEKO Dealership",
       "telephone": "570-643-0152",
       "address": {
@@ -43,7 +43,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-5",
+      "@id": "https://tekodealership.com/dealers#location-5",
       "name": "TEKO Dealership",
       "telephone": "302-546-0010",
       "address": {
@@ -53,7 +53,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-6",
+      "@id": "https://tekodealership.com/dealers#location-6",
       "name": "TEKO Dealership",
       "telephone": "570-344-4443",
       "address": {
@@ -63,7 +63,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-7",
+      "@id": "https://tekodealership.com/dealers#location-7",
       "name": "TEKO Dealership",
       "telephone": "984-489-0296",
       "address": {
@@ -73,7 +73,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-8",
+      "@id": "https://tekodealership.com/dealers#location-8",
       "name": "TEKO Dealership",
       "telephone": "574-703-0456",
       "address": {
@@ -83,7 +83,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-9",
+      "@id": "https://tekodealership.com/dealers#location-9",
       "name": "TEKO Dealership",
       "telephone": "804-792-0234",
       "address": {
@@ -93,7 +93,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-10",
+      "@id": "https://tekodealership.com/dealers#location-10",
       "name": "TEKO Dealership",
       "telephone": "732-908-7166",
       "address": {
@@ -103,7 +103,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-11",
+      "@id": "https://tekodealership.com/dealers#location-11",
       "name": "TEKO Dealership",
       "telephone": "732-998-8146",
       "address": {
@@ -113,7 +113,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-12",
+      "@id": "https://tekodealership.com/dealers#location-12",
       "name": "TEKO Dealership",
       "telephone": "803-596-0246",
       "address": {
@@ -123,7 +123,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-13",
+      "@id": "https://tekodealership.com/dealers#location-13",
       "name": "TEKO Dealership",
       "telephone": "419-402-8400",
       "address": {
@@ -133,7 +133,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-14",
+      "@id": "https://tekodealership.com/dealers#location-14",
       "name": "TEKO Dealership",
       "telephone": "352-453-0345",
       "address": {
@@ -143,7 +143,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-15",
+      "@id": "https://tekodealership.com/dealers#location-15",
       "name": "TEKO Dealership",
       "telephone": "609-551-0234",
       "address": {
@@ -153,7 +153,7 @@
     },
     {
       "@type": "AutomotiveBusiness",
-      "@id": "https://teko-dealership.replit.app/dealers#location-16",
+      "@id": "https://tekodealership.com/dealers#location-16",
       "name": "TEKO Dealership",
       "telephone": "940-716-3334",
       "address": {
