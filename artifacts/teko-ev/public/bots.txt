@@ -4,4 +4,4 @@ Allow: /
 Crawl-delay: 0
 
 Public pages are available to search, social, accessibility, and AI crawlers. Respect robots standards, rate limits, copyright, privacy, and applicable law.
-Sitemap: https://teko-dealership.replit.app/sitemap.xml
+Sitemap: https://tekodealership.com/sitemap.xml
