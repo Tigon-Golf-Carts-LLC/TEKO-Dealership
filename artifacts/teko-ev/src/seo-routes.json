@@ -1,0 +1,51 @@
+{
+  "/": {
+    "title": "TEKO EV | Electric mobility, made easy",
+    "description": "Discover TEKO EV electric vehicles and golf carts for neighborhoods, resorts, campuses, golf, and everyday local travel."
+  },
+  "/models": {
+    "title": "TEKO EV Models | Electric vehicles for every local journey",
+    "description": "Explore the complete TEKO EV lineup, from compact golf carts to capable six-seat electric vehicles."
+  },
+  "/financing": {
+    "title": "TEKO Dealership Financing | Apply for golf cart financing",
+    "description": "Explore TEKO Dealership financing options, including 0% APR promotions on qualifying new carts, same-day approvals, rent-to-own, commercial financing, and flexible lender applications."
+  },
+  "/dealers": {
+    "title": "TEKO EV Dealers | Find an electric vehicle near you",
+    "description": "Find a TEKO EV dealership near you. Browse national dealer locations and connect with a local electric vehicle specialist."
+  },
+  "/contact": {
+    "title": "Contact TEKO EV | Request information or a test drive",
+    "description": "Connect with a TEKO EV product specialist to request information, schedule a test drive, or find the right electric vehicle."
+  },
+  "/about": {
+    "title": "About TEKO EV | Electric mobility, made easy",
+    "description": "Learn about TEKO EV, a national electric vehicle and golf cart dealership built around better local travel."
+  },
+  "/models/triumph": {
+    "title": "TRIUMPH | TEKO EV electric vehicle",
+    "description": "TRIUMPH: Bold design. Smooth drive. Ultimate Triumph. Explore pricing, specifications, features, and request information from a TEKO EV dealer.",
+    "slug": "triumph"
+  },
+  "/models/trophy": {
+    "title": "TROPHY | TEKO EV electric vehicle",
+    "description": "TROPHY: Comfort, efficiency, and power in one sleek package. Explore pricing, specifications, features, and request information from a TEKO EV dealer.",
+    "slug": "trophy"
+  },
+  "/models/trophy-plus": {
+    "title": "TROPHY PLUS | TEKO EV electric vehicle",
+    "description": "TROPHY PLUS: Bold utility. Confident capability. Explore pricing, specifications, features, and request information from a TEKO EV dealer.",
+    "slug": "trophy-plus"
+  },
+  "/models/turbo": {
+    "title": "TURBO | TEKO EV electric vehicle",
+    "description": "TURBO: Compact form. Full power. Fast charge. Explore pricing, specifications, features, and request information from a TEKO EV dealer.",
+    "slug": "turbo"
+  },
+  "/models/turbolite": {
+    "title": "TURBOLITE | TEKO EV electric vehicle",
+    "description": "TURBOLITE: Lightweight. Practical. Built for the course and beyond. Explore pricing, specifications, features, and request information from a TEKO EV dealer.",
+    "slug": "turbolite"
+  }
+}
