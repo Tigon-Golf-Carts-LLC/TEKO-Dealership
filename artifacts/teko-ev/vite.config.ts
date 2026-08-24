@@ -67,6 +67,9 @@ export default defineConfig(async ({ command }): Promise<UserConfig> => {
     build: {
       outDir: path.resolve(import.meta.dirname, 'dist/public'),
       emptyOutDir: true,
+      // scripts/generate-image-sitemap.mjs reads this to resolve the hashed
+      // model photo filenames, then deletes it from the output.
+      manifest: true,
     },
     server: {
       port,
