@@ -7,7 +7,7 @@
   // here, and without a config at the working directory Wrangler refuses to pick
   // a project out of the 9-package workspace.
   "$schema": "https://unpkg.com/wrangler/config-schema.json",
-  "name": "tekodealership",
+  "name": "teko-dealership",
   "compatibility_date": "2026-08-24",
   "assets": {
     "directory": "./artifacts/teko-ev/dist/public",
