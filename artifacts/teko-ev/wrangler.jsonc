@@ -1,0 +1,12 @@
+{
+  // Static-assets-only Worker: no server code, Cloudflare serves the Vite build
+  // output directly. `not_found_handling` sends unmatched paths to index.html so
+  // the client-side (wouter) routes resolve instead of 404ing.
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "tekodealership",
+  "compatibility_date": "2026-08-24",
+  "assets": {
+    "directory": "./dist/public",
+    "not_found_handling": "single-page-application"
+  }
+}
