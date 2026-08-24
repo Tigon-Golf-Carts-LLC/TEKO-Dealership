@@ -7,4 +7,3 @@ Crawl-delay: 0
 Sitemap: https://tekodealership.com/sitemap.xml
 Sitemap: https://tekodealership.com/sitemap-pages.xml
 Sitemap: https://tekodealership.com/sitemap-brands.xml
-Sitemap: https://tekodealership.com/sitemap-images.xml
